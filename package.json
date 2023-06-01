@@ -1,6 +1,6 @@
 {
 	"name": "react-worker-hook",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Simple way to utilize Web Worker API with simple setup as using this custom React hook.",
 	"main": "index.js",
 	"files": [
