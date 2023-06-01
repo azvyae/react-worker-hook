@@ -1,0 +1,5 @@
+# Exclude the docker folder
+docker/
+
+# Exclude the docker-compose.yml file
+docker-compose.yml

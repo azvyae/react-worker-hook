@@ -1,0 +1,16 @@
+version: "3"
+services:
+  app:
+    build:
+      args:
+        - PASSWORD=1234
+      tags:
+        - "local/node:latest"
+      context: ./docker
+      dockerfile: Dockerfile
+    image: "local/node:latest"
+    ports:
+      - "3001:3000"
+    volumes:
+      - .:/home/node/app
+    command: tail -f /dev/null
